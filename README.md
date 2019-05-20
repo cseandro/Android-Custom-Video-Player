@@ -5,6 +5,14 @@
 
 <h3>Documentation</h3>
 
+<h3>Add It To Build.gradle</h3>
+ allprojects {
+        repositories {
+            jcenter()
+            maven { url "https://jitpack.io" }
+        }
+   }
+
 dependencies { implementation 'com.github.PavanKumarPatruni:custom-video-player:1.0' }
 
 
